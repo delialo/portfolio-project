@@ -1,0 +1,17 @@
+body {
+  background-image: url("../img/photography_image.png");
+  position: relative;
+  background-size: 100%;
+  color: white;
+}
+.nav-link {
+  color: white;
+}
+.navbar-brand {
+  color: white;
+}
+/* h1,
+h5,
+p {
+  color: white;
+} */
