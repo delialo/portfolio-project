@@ -4,7 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
@@ -14,7 +23,7 @@
     <link rel="stylesheet" href="src/styles.css" />
   </head>
   <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-DARK bg-DARK">
+    <nav class="navbar navbar-expand-lg m-5 px-5">
       <a class="navbar-brand" href="#">SheCodes</a>
       <button
         class="navbar-toggler"
@@ -28,10 +37,14 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
@@ -43,21 +56,23 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
+        </ul>
       </div>
     </nav>
-    <div class="container text-center">
-      <div class="mt-5">
-      <h5>JANE DOE</h5>
-      <h1>PHOTOGRAPHY</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipiscing elit fermentum
-        habitasse torquent, donec erat enim dapibus per tempus urna ac platea
-        conubia cursus, habitant litora consequat dictum potenti vel curae
-        gravida dui.
+    <div class="hero-container text-center">
+      <h4 class="mt-5 p-3">SHELLEY WHITE</h4>
+      <h1 class="mb-4">PHOTOGRAPHY</h1>
+      <p class="mb-5 text-wrap">
+        Nisl faucibus quis urna nibh ut amet. Diam suscipit pretium massa,
+        sollicitudin in risus in. Sagittis.
       </p>
-          </div>
 
-      <button type="button" class="btn btn-light">Get Started</button>    
+      <button
+        type="button"
+        class="btn btn-light rounded-pill px-5 py-3 font-weight-bold"
+      >
+        GET STARTED
+      </button>
     </div>
   </body>
 </html>
