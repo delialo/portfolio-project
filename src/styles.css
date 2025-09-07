@@ -1,20 +1,29 @@
+:root {
+  --main-black: #1b1b1b;
+  --brown: #282323;
+}
+
 body {
-  background-image: url("../img/photography_image.png");
+  background-image: url("../img/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: #1b1b1b;
-  color: white;
+  background-color: var(--main-black);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 10%;
+  color: white;
 }
-
+body.about {
+  background-image: none;
+  background-color: var(--main-black);
+}
 .nav-link {
   color: white;
   font-weight: 500;
   font-size: 18px;
   letter-spacing: 0%;
 }
+
 .navbar-brand {
   color: white;
   font-size: 30px;
@@ -27,6 +36,23 @@ h1 {
 h4 {
   font-size: 24px;
 }
+
+.about-title {
+  color: #f65282;
+  font-size: 18px;
+  letter-spacing: 10%;
+  line-height: 100%;
+}
+
+.camera {
+  background-color: var(--brown);
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  border-radius: 4px;
+  padding: 20px;
+}
+
 .hero {
   padding-top: 15%;
   padding-bottom: 35%;
@@ -36,6 +62,8 @@ h4 {
   display: block;
   margin: auto;
   max-width: 55%;
+}
+p {
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
@@ -50,7 +78,7 @@ button {
 footer {
   font-size: 30px;
   letter-spacing: 0%;
-  background-color: #282323;
+  background-color: var(--brown);
 }
 .footer p {
   font-weight: 400;

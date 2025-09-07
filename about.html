@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>About me</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +22,7 @@
     />
     <link rel="stylesheet" href="src/styles.css" />
   </head>
-  <body class="home">
+  <body class="about">
     <nav class="navbar navbar-expand-lg m-5 px-5">
       <a class="navbar-brand" href="#">SheCodes</a>
       <button
@@ -43,12 +43,12 @@
       >
         <ul class="navbar-nav">
           <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home<span class="sr-only">(current)</span></a
-            >
+            <a class="nav-link" href="/index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about.html">About</a>
+            <a class="nav-link" href="#"
+              >About<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Gallery</a>
@@ -59,34 +59,47 @@
         </ul>
       </div>
     </nav>
-    <div class="hero text-center">
-      <h4 class="mt-5 p-3">SHELLEY WHITE</h4>
-      <h1 class="mb-4">PHOTOGRAPHY</h1>
-      <p class="mb-5 text-wrap">
-        Nisl faucibus quis urna nibh ut amet. Diam suscipit pretium massa,
-        sollicitudin in risus in. Sagittis.
-      </p>
 
-      <button
-        type="button"
-        class="btn btn-light rounded-pill px-5 py-3 font-weight-bold"
-      >
-        GET STARTED
-      </button>
-    </div>
     <div class="container">
-      <div class="row">
-        <div class="col mb-5"><img src="../img/row1.png" /></div>
-        <div class="col mb-5"><img src="../img/row2.png" /></div>
-        <div class="col mb-5"><img src="../img/row3.png" /></div>
-        <div class="col mb-5"><img src="../img/row4.png" /></div>
+        <div class="row justify-content-center">
+            <div class="col-md-7">
+                <img src="img/about.png" class="img-fluid" />
+            </div>
+            <div class="col-md-5">
+                <span class="about-title">ABOUT ME</span>
+                <h1 class="py-3">SHELLEY WHITE</h1>
+                <p class="pb-3">
+          Nisl faucibus quis urna nibh ut amet diam suscipit pretium massa
+          sollicitudin in risus in sagittis nisl faucibus quis urna nibh ut amet
+          diam suscipit pretium massa, sollicitudin in risus in. Sagittis.
+                </p>
+        
+            <div class="mt-5">
+                <span class="about-title">MY CAMERA</span>
+
+            <div class="container camera p-3 my-4 d-flex align-items-center">
+          <img src="img/camera.png" alt="camera icon" class="col-2" />
+          <span class="col-10">Olympus PEN-F Kamera Mirrorlees</span>
+        </div>
+
+            <button
+            type="button"
+            class="btn btn-light rounded-pill px-5 py-3 mt-5 font-weight-bold"
+          >
+            CONTACT ME
+            </button>
+            </div>
+        
+            </div>
+        <div class="row-1 m-5">
+              <img src="../img/row1.png" />
+
+        </div>
       </div>
-    </div>
-    <footer
-      class="footer d-flex justify-content-between align-items-center px-5 py-3"
-    >
+  <footer id="footer" class="footer d-flex justify-content-between align-items-center px-5 py-3">
       <a class="navbar-brand" href="#">SheCodes</a>
       <p>&copy; 2021 SheCodes All rights reserved.</p>
-    </footer>
-  </body>
+</footer> 
+ 
+
 </html>
