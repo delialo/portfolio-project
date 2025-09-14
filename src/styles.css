@@ -14,7 +14,9 @@ body {
   color: white;
 }
 
-body.about {
+body.about,
+body.contact,
+body.gallery {
   background-image: none;
   background-color: var(--main-black);
 }
