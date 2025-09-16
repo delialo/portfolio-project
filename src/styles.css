@@ -34,8 +34,14 @@ body.gallery {
   letter-spacing: 0%;
 }
 
+.navbar-toggler {
+  border: 1px solid #ffffff;
+  color: white;
+}
+
 h1 {
   font-size: 72px;
+  word-wrap: break-word;
 }
 
 h4 {
